@@ -1,9 +1,9 @@
 name: Build #ismi opsiyonel
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - gh-actions
 
 env:
   REGISTRY: ghcr.io #github container registry (key)
