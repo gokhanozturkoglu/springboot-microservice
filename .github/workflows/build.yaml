@@ -25,9 +25,6 @@ jobs:
           java-version: 17
           distribution: "corretto"
 
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
-
       - name: Build
         working-directory: ${{ matrix.image_name }} #matrix her projede çalıştırması için
         run: |
